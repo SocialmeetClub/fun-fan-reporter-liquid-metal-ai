@@ -1,8 +1,0 @@
-{
-  "name": "TheFunFanReporter: Liquid Metal",
-  "description": "Offline-First Crowd Intelligence for Massive Events. Switches between Cloud AI and Liquid Metal Edge Nodes.",
-  "requestFramePermissions": [
-    "microphone",
-    "geolocation"
-  ]
-}
