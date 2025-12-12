@@ -1,0 +1,24 @@
+{
+  "name": "the-fun-fan-reporter",
+  "version": "2.0.0",
+  "description": "Offline-First Crowd Intelligence using Gemini Live and Liquid Metal logic",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "deploy:raindrop": "echo 'Deploying to Liquid Metal Raindrop...' && raindrop deploy"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "lucide-react": "^0.460.0",
+    "@google/genai": "^1.0.0",
+    "tailwindcss": "^3.4.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10",
+    "buffer": "^6.0.3",
+    "events": "^3.3.0"
+  }
+}
